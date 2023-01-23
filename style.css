@@ -1,0 +1,56 @@
+:root {
+    --mkwii: #28acf3}
+
+html {
+    background: url(checkerboard-white.png)}
+
+body {
+    font-family: Verdana, Arial, sans-serif;
+    margin: 1em auto 0 auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    transition: all 0.1s}
+@media only screen and (max-width: 800px) {
+    body {
+        margin-top: 0;
+        padding: 0;
+        transition: all 0.1s}}
+
+.container {
+	background: #fff;
+	border: 1px solid var(--mkwii);
+    box-shadow: 0 3px 10px 0 #00000033;
+	margin: 0 auto;
+    max-width: 800px}
+
+#top {
+    background: radial-gradient(var(--mkwii) 0%, #28acf300 40%);
+    border-bottom: 1px solid var(--mkwii)}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 0 0 var(--mkwii), -2px 0 0 var(--mkwii), 0 2px 0 var(--mkwii), 0 -2px 0 var(--mkwii), 1px 1px var(--mkwii), -1px -1px 0 var(--mkwii), 1px -1px 0 var(--mkwii), -1px 1px 0 var(--mkwii)}
+
+p {
+    padding: 5px}
+
+ol, ul {
+    margin-top: -10px}
+
+li {
+    margin-left: -10px;
+    padding-right: 5px}
+
+a {
+    text-decoration: none}
+a:hover {
+    text-decoration: underline}
+
+#footer {
+    background: #eaeaea;
+    box-shadow: inset 0 1px 1px 0 #4949491a;
+    color: #4a4a4a;
+    padding: 5px;
+    text-align: center;
+    font-size: small}
